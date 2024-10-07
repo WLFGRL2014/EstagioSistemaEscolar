@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Canal de Postagem</h1>
+
+    <div class="body">
+        <a href="formulario.html">
+        <button>Criar</button>
+        </a>
+
+        <h2>Postagens</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Descrição</th>
+                    <th>Categoria</th>
+                    <th>Data de Postagem</th>
+                    <th>Data de Conclusão</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Prova de Matemática</td>
+                    <td>Provas final de semestre</td>
+                    <td>Provas</td>
+                    <td>06/10/2024</td>
+                    <td>08/10/2024</td>
+                    <td>
+                        <input type="checkbox" id="toggle1" class="toggle-label">
+                        <label for="toggle1">Ver Detalhes</label>
+                        <div class="details">
+                            <p>Anexo:prova_final.pdf</p>
+                            <a href="editar_postagem.php?id=1">Editar</a>
+                            <a href="excluir_postagem.php?id=1">Excluir</a>
+                        </div>
+                    </td>
+
+                </tr>
+
+                <!-- Outras fitas aqui-->
+            </tbody>
+
+        </table>
+
+    </div>
+    
+</body>
+</html>
